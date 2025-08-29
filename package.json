@@ -1,0 +1,30 @@
+{
+  "name": "ngadimin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "vercel",
+    "deploy-prod": "vercel --prod",
+    "db:setup": "echo 'Please setup Supabase database manually - see SUPABASE_SETUP.md'"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.54.0",
+    "bcryptjs": "^2.4.3",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "typescript": "^5"
+  }
+}
